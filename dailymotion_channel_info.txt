@@ -2,4 +2,4 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 Test Movie | | |
-https://geo.dailymotion.com/player/xowya.html?video=x8wsr9c
+https://www.dailymotion.com/video/x8xe4n0
