@@ -23,7 +23,7 @@ if len(sys.argv) == 2:
                 'https' : sys.argv[1]
               }
 
-na = 'https://github.com/Justryuz/TV/raw/main/staytune/promoVOD.mp4'
+na = 'https://raw.githubusercontent.com/warningfm/utubeLive/main/assets/Interrupted.m3u'
 def grab(line):
     try:
         _id = line.split('/')[4]
@@ -64,3 +64,4 @@ with open('../dailymotion_channel_info.txt') as f:
             print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
         else:
             grab(line)
+        
