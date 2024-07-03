@@ -27,8 +27,8 @@ na = 'https://raw.githubusercontent.com/Justryuz/TV/main/staytune/promoVOD.mp4'
 def grab(line):
     try:
         _id = line.split('/')[4]
-       #response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}', proxies=proxies).json()['qualities']['auto'][0]['url']
-        response = s.get(f'https://geo.dailymotion.com/player.html?video={_id}', proxies=proxies).json()['qualities']['auto'][0]['url']
+        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}', proxies=proxies).json()['qualities']['auto'][0]['url']
+       #response = s.get(f'https://geo.dailymotion.com/player.html?video={_id}', proxies=proxies).json()['qualities']['auto'][0]['url']
         m3u = s.get(response, proxies=proxies).text
         m3u = m3u.strip().split('\n')[1:]
         d = {}
