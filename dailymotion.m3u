@@ -12,7 +12,7 @@
 
 
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="" tvg-logo="" tvg-id="", Aswaja TV
-https://live.eu-north-1b.cf.dmcdn.net/sec2(D6X0BCEAi6d-8JzcQsm7Z9Hd1mVG-VzDXPyZ8oXiYdVFk3CiUSLk8k1eKSJ-xfpFuWVLii2GEI-V9Hn9f7NLl4U0bLUiKVAys8HsxfbDL6TaH5ZffWWXyglJr55tPTa5)/dm/3/x748iuo/s/live-240.m3u8#cell=lcf-eu-north-1b
+https://live.eu-north-1b.cf.dmcdn.net/sec2(822e_4E5S0RXxsHlujcGJEgcjArreEcN7pXgmxbSTN2Hx7wq57mXvRciAAhR4PhvRIVs7V7G6FVf9CMGvcsA_BDbTkGsdEEQ6lgzVqzuHajslBHG5NFme1zP9cxs_9rx)/dm/3/x748iuo/s/live-240.m3u8#cell=lcf-eu-north-1b
 
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="" tvg-logo="" tvg-id="", SUZZANNA - Sundel Bolong
 https://raw.githubusercontent.com/Justryuz/TV/main/staytune/promoVOD.mp4
